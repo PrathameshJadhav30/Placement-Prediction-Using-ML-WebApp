@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f7; /* Soft light gray background */
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #008C3A; /* Fresh green */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .menu ul li {
+    margin-right: 30px;
+}
+
+.navbar .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu ul li a:hover {
+    color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #007BFF 0%, #4CAF50 100%); /* Gradient background */
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.hero p.intro-text {
+    font-size: 20px;
+    color: #f0f4f7;
+    line-height: 1.8;
+    margin: 20px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button Styles */
+.predict-btn {
+    background-color: #ffcc00; /* Bright yellow for a call-to-action */
+    color: #333;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.predict-btn a {
+    color: #333;
+    text-decoration: none;
+}
+
+.predict-btn:hover {
+    background-color: #ff9900; /* Darker yellow on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
