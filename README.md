@@ -16,7 +16,7 @@ Deployment: Render
 
 # Live Website
 Check out the deployed application here: 
-     (https://placement-prediction-using-ml-webapp.onrender.com/)
+     (https://placement-prediction-using-ml-webapp-1.onrender.com/)
 
 # Usage
 - Launch the web application.
